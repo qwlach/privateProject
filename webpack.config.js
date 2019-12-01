@@ -36,7 +36,8 @@ module.exports = {
     // 开启一个虚拟服务器
     devServer: {
         contentBase: './dist',
-        hot: true
+        hot: true,
+        port: 6001,
     },
     plugins: [
         //每次编译都会把dist下的文件清除，我们可以在合适的时候打开这行代码，例如我们打包的时候，开发过程中这段代码关闭比较好
